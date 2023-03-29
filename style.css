@@ -1,0 +1,117 @@
+.wood {
+    position: absolute;
+    margin-left: 100px;
+    z-index: 20;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 60%;
+}
+
+.samuel {
+    display: flex;
+}
+
+.carousel .slide {
+    scroll-padding-left: 10px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.line {
+    margin-left: 5px;
+    list-style: circle;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    display: flex;
+    gap: 5px;
+    color: white;
+    list-style-image: linear-gradient(black, black);
+    list-style-type: decimal-leading-zero;
+    border-radius: 5px;
+}
+
+.no {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.no h6 {
+    font-size: 15px;
+}
+
+.color {
+    font-weight: 25px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.col {
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 3px;
+    margin-left: 5px;
+}
+
+.row4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+.row4 .one {
+    background-image: linear-gradient(coral, coral);
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.row4 .two {
+    gap: -40px;
+    background-image: linear-gradient(aqua, aqua);
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.row4 .three {
+    gap: 40px;
+    background-image: linear-gradient(aquamarine, aquamarine);
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.heart img {
+    height: 17px;
+    width: 10000000000000000000001208085x;
+}

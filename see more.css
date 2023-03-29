@@ -1,0 +1,13 @@
+.add {
+    margin-bottom: 10px;
+}
+
+.btn1 :hover {
+    color: red;
+    font-size: 14px;
+}
+
+.btn2 :hover {
+    font-size: 14px;
+    color: blue;
+}
